@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 LABEL maintainer="edhongcy@gmail.com"
 
-ARG QDK2_VER=0.23
+ARG QDK2_VER=0.24
 
 # Install.
 RUN apt-get update \

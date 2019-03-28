@@ -8,7 +8,7 @@ RUN apt-get update \
   && apt-get install -y software-properties-common \
   && add-apt-repository -y ppa:chris-lea/node.js \
   && apt-get update \
-  && apt-get install -y build-essential unzip curl wget git realpath moreutils fakeroot pv python-support \
+  && apt-get install -y build-essential unzip curl wget git realpath moreutils fakeroot pv python-support bsdmainutils curl python openssl\
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
